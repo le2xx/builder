@@ -1,15 +1,5 @@
-import {
-  Directive,
-  EmbeddedViewRef,
-  Input,
-  Optional,
-  TemplateRef,
-  ViewContainerRef,
-  OnInit,
-  OnDestroy,
-  Renderer2,
-} from '@angular/core';
-import { makeStateKey, StateKey, TransferState } from '@angular/platform-browser';
+import { Directive, EmbeddedViewRef, Input, Optional, TemplateRef, ViewContainerRef, OnInit, OnDestroy, Renderer2, makeStateKey, StateKey, TransferState } from '@angular/core';
+
 import { BuilderContentService } from '../services/builder-content.service';
 import { BuilderService } from '../services/builder.service';
 import { Builder, Subscription as BuilderSubscription } from '@builder.io/sdk';
