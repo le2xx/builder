@@ -28,6 +28,7 @@ const components = [
   providers: [BuilderService, BuilderContentService, BuilderComponentService],
   declarations: [components, directives],
   exports: [components, directives],
+  // @ts-ignore
   entryComponents: [components],
 })
 export class BuilderModule {
